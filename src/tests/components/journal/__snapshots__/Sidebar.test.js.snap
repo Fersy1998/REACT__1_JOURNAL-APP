@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el SideBar should mathc the snapshot 1`] = `
+<aside
+  className="journal__sidebar animate__animated animate__backInLeft"
+>
+  <div
+    className="journal__sidebar-navbar"
+  >
+    <h3>
+      <i
+        className="fa fa-moon "
+      />
+      <span>
+        Fersy
+      </span>
+    </h3>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+  <div
+    className="journal__new-entry"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-calendar-plus fa-5x "
+    />
+    <p
+      className="mt-5"
+    >
+      New Entry
+    </p>
+  </div>
+  <div
+    className="journal__entries animate__animated animate__headShake"
+  >
+    <div
+      className="journal__entry pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="journal__entry-picture"
+        style={
+          Object {
+            "backgroundImage": "url(https://res.cloudinary.com/dyyfc2gux/image/upload/v1654747279/original_-_2021-11-07T194242.528_yvsszx.jpg)",
+            "backgroundSize": "cover",
+          }
+        }
+      />
+      <div
+        className="journal__entry-body"
+      >
+        <p
+          className="journal__entry-title"
+        />
+        <p
+          className="journal__entry-content"
+        />
+      </div>
+      <div
+        className="journal__entry-date-box"
+      >
+        <span>
+          Wednesday
+        </span>
+        <p>
+          8th
+        </p>
+      </div>
+    </div>
+  </div>
+</aside>
+`;

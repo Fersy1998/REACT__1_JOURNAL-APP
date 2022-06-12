@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en registerScreen.js should match the snapshot 1`] = `
+<div
+  className="animate__animated animate__headShake"
+>
+  <h3
+    className="auth__title"
+  >
+    Register
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="auth__alert-error"
+    >
+      Invalid email
+    </div>
+    <input
+      className="auth__input"
+      name="name"
+      onChange={[Function]}
+      placeholder="name"
+      type="text"
+      value="Fersy"
+    />
+    <input
+      className="auth__input"
+      name="email"
+      onChange={[Function]}
+      placeholder="email"
+      type="text"
+      value="fersy@yahoo.com"
+    />
+    <input
+      className="auth__input"
+      name="password"
+      onChange={[Function]}
+      placeholder="password"
+      type="password"
+      value="123"
+    />
+    <input
+      className="auth__input"
+      name="password2"
+      onChange={[Function]}
+      placeholder="confirm password"
+      type="password"
+      value="123"
+    />
+    <button
+      className="btn btn-primary btn-block"
+      type="submit"
+    >
+      Login
+    </button>
+    <hr />
+    <a
+      className="link"
+      href="/auth/login"
+      onClick={[Function]}
+    >
+      Already register?
+    </a>
+  </form>
+</div>
+`;
